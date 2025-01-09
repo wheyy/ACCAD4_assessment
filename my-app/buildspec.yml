@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Installing dependencies...
       - pip install pytest
+      - pip install flask
   pre_build:
     commands:
       - echo Running pre-build steps...
